@@ -15,6 +15,7 @@
    <feature name="SplashScreen">
     <param name="android-package" value="org.apache.cordova.SplashScreen" />
 </feature>
+<gap:splash src="es/icon/android/icon-48-mdpi.png" />
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="ldpi" />
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="mdpi" />
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="hdpi" />
