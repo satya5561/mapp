@@ -12,7 +12,9 @@
       S P Gupta
     </author>
 	<!-- Define app icon for each platform. -->
-   
+   <feature name="SplashScreen">
+    <param name="android-package" value="org.apache.cordova.SplashScreen" />
+</feature>
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="ldpi" />
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="mdpi" />
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="hdpi" />
@@ -22,7 +24,7 @@
 <gap:plugin name="org.apache.cordova.dialogs" version="0.2.6" />
 <gap:plugin name="org.apache.cordova.geolocation" version="0.3.7" />
 <gap:plugin name="org.apache.cordova.network-information"  version="0.2.7"/>
-
+<gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
    
     <access origin="*"/> <!-- allow local pages -->
    </widget>
