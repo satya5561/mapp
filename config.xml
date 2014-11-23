@@ -1,27 +1,28 @@
-<?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ionicframework.mahendra" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Mahendra</name>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.satya.mahendra"
+        version   = "1.0.0">
+		<name>Mahendra</name>
     <description>
        Mahindra Commercial Vehicles sales force.
     </description>
     <author email="satya5561@gmail.com" href="http://ionicframework.com">
       S P Gupta
     </author>
-	
 	<!-- Define app icon for each platform. -->
-    <icon src="icon.png" />
+   
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="ldpi" />
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="mdpi" />
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="hdpi" />
     <icon src="res/icon/android/icon-48-mdpi.png"  gap:platform="android"    gap:density="xhdpi" />
 	
-    <content src="index.html" />
-    <access origin="*" />
-    <preference name="fullscreen" value="true" />
-	<gap:plugin name="org.apache.cordova.camera" version="0.2.9" />
+<gap:plugin name="org.apache.cordova.camera" version="0.2.9" />
 <gap:plugin name="org.apache.cordova.dialogs" version="0.2.6" />
 <gap:plugin name="org.apache.cordova.geolocation" version="0.3.7" />
-<gap:plugin name="org.apache.cordova.network-information" version="0.2.7" />
+<gap:plugin name="org.apache.cordova.network-information"  version="0.2.7"/>
 
-	 <gap:plugin name="org.apache.cordova.battery-status" version="0.2.11" />
-</widget>
+   
+    <access origin="*"/> <!-- allow local pages -->
+   </widget>
